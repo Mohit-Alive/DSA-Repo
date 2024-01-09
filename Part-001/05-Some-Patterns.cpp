@@ -25,7 +25,7 @@ int main(){
     while(b<=a){
         int c =1;
         while(c<=a){
-            cout<<b;
+            cout<<b<<" ";
             c=c+1;
 
         }
