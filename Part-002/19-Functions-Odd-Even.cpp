@@ -12,7 +12,6 @@ bool isEven(int a) {
     else { 
         return 1;
     }
-
 }
 
 int main(){
@@ -25,7 +24,6 @@ int main(){
     else {
         cout<< " Number is Odd" <<endl;
     }
-
-    
+     
     return 0;
 }

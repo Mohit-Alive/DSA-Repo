@@ -14,7 +14,7 @@ int main(){
            cout<<0<<endl;
         }
         
-        ans=(ans*10)+digit;
+        ans = (ans*10)+digit;
         x=x/10;
     }  
         cout<<ans;
