@@ -11,9 +11,10 @@ void subseq(string &str, string output, int i){
         return;
     }
 
+    subseq(str, output + str[i], i+1); //Include
+    
     subseq(str, output, i+1);  //Exclude
 
-    subseq(str, output + str[i], i+1); //Include
 }
 
 int main(){
